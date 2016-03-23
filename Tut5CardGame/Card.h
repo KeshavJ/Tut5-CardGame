@@ -9,8 +9,8 @@ private:
 	int Cnumber;
 public:
 	Card();
-	void setCard(string, int);
 	~Card();
+	void setCard(string, int);
 	string colour();
 	int number();
 	void print();
